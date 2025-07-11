@@ -1,0 +1,13 @@
+//hàm và kiểu trả về tham số
+function greet(name) {
+    return "Hello ".concat(name);
+}
+var mess = greet("Chung");
+console.log("Câu nói: ", mess);
+//2. hàm kiểu void (hàm không định kiểu, hàm không trả về giá trị)
+function logMessage(message) {
+    console.log("Log: ", message);
+}
+console.log("Log: ", logMessage);
+//3. hàm kiểu never 
+//4. hàm mạc danh /  arrow function
